@@ -64,4 +64,4 @@ Common detected curves:
 
 ## Author
 
-\<Your Name\> — PA-2 Submission
+\<Tanmay Gadve\> 
