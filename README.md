@@ -64,4 +64,4 @@ Common detected curves:
 
 ## Author
 
-\<Tanmay Gadve\> 
+Tanmay Gadve
