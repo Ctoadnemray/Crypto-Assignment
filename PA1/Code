@@ -1,0 +1,35 @@
+import math
+
+def is_prime(n: int) -> bool:
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0:
+        return False
+
+    limit = int(math.isqrt(n))
+    for d in range(3, limit + 1, 2):
+        if n % d == 0:
+            return False
+    return True
+
+def prime_detector(j: int) -> int:
+    return 1 if is_prime(j) else 0
+
+def nth_prime(n: int) -> int:
+    if n < 1:
+        raise ValueError("n must be positive")
+
+    count = 0
+    candidate = 1
+
+    while True:
+        candidate += 1
+        if prime_detector(candidate):
+            count += 1
+            if count == n:
+                return candidate
+            
+
+
