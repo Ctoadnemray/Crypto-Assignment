@@ -1,6 +1,6 @@
 # EC Curve Parameter Extractor  
 ### Extract Elliptic Curve (EC-DSA) Parameters From a PEM Certificate  
-Author: *<Your Name>*  
+Author: Tanmay Gadve
 
 ---
 
